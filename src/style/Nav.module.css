@@ -1,0 +1,42 @@
+.navbar{
+ font-family: sans-serif;
+ font-size: 20p
+}
+ul{
+gap: 60px;
+padding: 10px;
+display: flex;
+list-style-type: none;
+
+}
+li{
+cursor: pointer;
+}
+li :hover{
+    color: rgb(124, 124, 128);
+}
+
+@media (min-width: 300px) {
+    ul{
+         display: flex;
+        gap: 20px;
+        text-align: center;
+        opacity: 0;
+        animation: slidein 2s ease-in-out forwards;
+    }
+    @keyframes slidein {
+        from {
+            transform: 0;
+            opacity: 0;
+        }
+        to {
+            transform: 0;
+            opacity: 1;
+        }
+    }
+    
+
+
+    
+}
+
