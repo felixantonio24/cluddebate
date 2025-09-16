@@ -16,7 +16,7 @@ li :hover{
     color: rgb(124, 124, 128);
 }
 
-@media (min-width: 320px) and (max-width:767px) {
+@media (max-width:767px) {
     ul{
          display: flex;
         gap: 20px;
